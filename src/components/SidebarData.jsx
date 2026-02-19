@@ -6,11 +6,13 @@
  * {string} SidebarData.cName - The class name of the sidebar item.
  */
  export const SidebarData = [
+  /*
   {
     title: "Jhonson",
     path: "/graph-theory-and-algorithms/jhonson",
     cName: "nav-text",
   },
+  */
   {
     title: "Nodos",
     path: "/graph-theory-and-algorithms/nodos",
