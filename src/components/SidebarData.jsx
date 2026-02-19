@@ -16,6 +16,7 @@
     path: "/graph-theory-and-algorithms/nodos",
     cName: "nav-text",
   },
+  /*
   {
     title: "Asignacion",
     path: "/graph-theory-and-algorithms/asignacion",
@@ -71,4 +72,5 @@
     path: "/graph-theory-and-algorithms/mathlabdesktop",
     cName: "nav-text",
   },
+  */
 ];
