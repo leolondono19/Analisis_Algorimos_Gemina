@@ -1,0 +1,32 @@
+.list-input-container {
+  position: absolute;
+  width: 100%;
+  margin: 10 auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.list-input-container input {
+  width: 200px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+.list-input-container button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+.list-input-container label {
+  margin: auto 0;
+  font-size: 16px;
+}

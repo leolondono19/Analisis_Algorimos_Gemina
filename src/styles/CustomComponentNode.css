@@ -1,0 +1,29 @@
+.custom-component-node {
+  min-height: 1.875rem;
+  padding: 0.3125rem;
+  background-color: white;
+  border: 0.1rem solid #000;
+  border-radius: 0.1875rem;
+  box-shadow: 0 0.0625rem 0.0625rem rgba(0, 0, 0, 0.05);
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.custom-component-node input {
+  width: 40%;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  font-size: 1rem;
+  text-align: center;
+}

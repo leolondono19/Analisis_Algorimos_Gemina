@@ -1,0 +1,59 @@
+.textual-solution-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textual-solution-title {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textual-solution-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.textual-solution-item {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  background-color: #fff;
+  padding: 10px 20px; /* Agrega espacio interno */
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  width: 80%; /* Ajusta el ancho para que no ocupe todo el espacio */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.solution-index {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.solution-text {
+  flex: none; /* Evita que el texto se expanda */
+}
+
+.fictitious-row {
+  background-color: #ffebcc; /* Color de fondo para filas ficticias */
+}
+
+.fictitious-column {
+  background-color: #ffebcc; /* Color de fondo para columnas ficticias */
+}
+
+.fictitious-cell {
+  background-color: #ffe6b3; /* Color de fondo para celdas ficticias */
+  font-style: italic; /* Texto en cursiva para diferenciarlas */
+}

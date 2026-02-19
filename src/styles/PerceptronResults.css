@@ -1,0 +1,56 @@
+.perceptron-results {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  width: 100%;
+}
+
+.perceptron-results h2 {
+  color: #1A202C;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.perceptron-results p {
+  color: #4A5568;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.perceptron-results p:last-child {
+  margin-bottom: 0;
+}
+
+.perceptron-results .weights-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.perceptron-results .weights-item {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px 8px 0;
+  padding: 12px;
+  width: calc(50% - 4px);
+}
+
+.perceptron-results .weights-item:last-child {
+  margin-right: 0;
+}
+
+.perceptron-results .weights-item span {
+  color: #1A202C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}

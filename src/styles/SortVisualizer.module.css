@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.container svg {
+  margin: 0 auto;
+  display: block;
+  background: linear-gradient(180deg, #121212, #1e1e1e);
+  border-radius: 8px;
+}
+
+.title {
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #388e3c;
+}
+
+.info {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 14px;
+}

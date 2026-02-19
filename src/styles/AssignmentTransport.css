@@ -1,0 +1,106 @@
+.controls-bottom-left {
+  left: 10;
+  bottom: 0;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  position: absolute;
+  z-index: 5;
+  margin: 15px;
+}
+
+.controls-botton {
+  border: none;
+  color: black;
+  background: #fefefe;
+  border-bottom: 1px solid #eee;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 5px;
+}
+
+.controls-botton:hover {
+  background: #f4f4f4;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212529;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212529;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.matrix {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+}
+
+.matrix-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  background-color: #ccc;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.matrix-header-cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.matrix-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.matrix-cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-right: 1px solid gray;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 80%;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}

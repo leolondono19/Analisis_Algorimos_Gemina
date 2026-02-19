@@ -1,0 +1,37 @@
+.perceptron-fields {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 8px;
+  width: 200px; /* Adjust the width according to your needs */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container label {
+  margin-bottom: 5px;
+}
+
+.row-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.result-column {
+  background-color: #f2f2f2; /* Color de fondo más oscuro */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

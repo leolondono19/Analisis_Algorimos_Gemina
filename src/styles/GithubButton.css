@@ -1,0 +1,25 @@
+.github-button {
+  position: absolute;
+  top: 80px;
+  right: -130px;
+
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #676382;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.github-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

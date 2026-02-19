@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Graph Theory &amp; Algoritms</string>
+    <string name="title_activity_main">Graph Theory &amp; Algoritms</string>
+    <string name="package_name">com.ignacioillanes.graphs</string>
+    <string name="custom_url_scheme">com.ignacioillanes.graphs</string>
+</resources>
